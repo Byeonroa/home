@@ -1,0 +1,39 @@
+p {
+    color: red;
+}
+#cext {
+    color: blue;
+} 
+
+.btxt {
+    color: red;
+}
+.ctxt {
+    color: blue;
+}
+.atxt {
+    font-weight: bold;
+}
+
+* {
+    color: blue;
+}
+
+.abox p {
+    color: blue;
+}
+
+.bbox > p {
+    color: blue;
+}
+
+.plus {
+    color: black;
+}
+h3 + p {
+    color: blue;
+}
+
+h4 ~ p {
+    color: blueviolet;
+}

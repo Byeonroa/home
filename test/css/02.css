@@ -1,0 +1,89 @@
+* {
+    margin: 10px;
+}
+#container {
+    background: lightblue;
+}
+h1 {
+    background: beige;
+}
+span {
+    color: crimson;
+}
+h2 + p > span {
+    color: blue;
+}
+.tea1 {
+    background: beige;
+}
+
+h3[class] {
+    color: blue;
+}
+p[class^='icox'] {
+    color: darkred;
+}
+/*
+p[class='icox'] {
+    color: darkred;
+}
+p[class~='icox'] {
+    color: darkred;
+}
+p[class|='icox'] {
+    color: darkred;
+}
+
+p[class$='icox'] {
+    color: darkred;
+}
+p[class*='icox'] {
+    color: darkred;
+}
+*/
+
+a {
+    color: dodgerblue;
+}
+a:hover {
+    color: coral; 
+}
+
+.box p:first-letter {
+    font-size: 150%;
+}
+.box p:first-child{
+    color: blue;
+}
+.box p {
+    background: lightgray;
+}
+.box p:last-child {
+    background: palegoldenrod;
+}
+.box p:nth-child(3) {
+    color: red;
+}
+.box p::before {
+    content: "✦";
+}
+.box::after {
+    content: "항목을 선택해주세요";
+    color: red; 
+}
+
+.for p {
+    color: pink;
+}
+.for #ctxt {
+    color: orange;
+}
+.for p.atxt {
+    color: blue !important;
+}
+.for p.atxt.btxt {
+    color: magenta;
+}
+.for p:first-child {
+    color: red;
+}
